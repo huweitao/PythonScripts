@@ -6,7 +6,6 @@ import types
 import json
 import ast
 # pip install below
-# import rsa
 import requests
 import jwt
 from cryptography.hazmat.backends import default_backend
@@ -15,9 +14,9 @@ from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.asymmetric import padding
 
-# node.js: https://www.jianshu.com/p/2036987a22fb
+# node.js example: https://www.jianshu.com/p/2036987a22fb
 
-# Global vars
+# Global Vars
 PemPath = './appleAuthPem.pem'
 
 def formatBase64(str):
